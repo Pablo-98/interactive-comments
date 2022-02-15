@@ -1,3 +1,6 @@
+body{
+    background-color: hsl(223, 19%, 93%)
+}
 .box {
     height: 200px;
     width: 200px;
@@ -7,9 +10,7 @@
 p {
     color: gray
 }
-div {
-    outline: 2px dotted blue
-}
+
 .container {
     max-width: 640px;
     margin: 30px auto;
