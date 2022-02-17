@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    
     $(".primaryContained").on('click', function() {
         $(".comment").addClass("commentClicked");
     });

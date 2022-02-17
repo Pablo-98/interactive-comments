@@ -32,12 +32,12 @@ p {
     width: 100%;
     border: none;
     background: #E8E8E8;
-    padding: 5px 10px;
-    height: 50%;
-    border-radius: 5px 5px 0px 0px;
+    padding: 10px 10px;
+    height: 25%;
+    border-radius: 0px 0px 10px 10px;
     border-bottom: 2px solid #016BA8;
-    transition: all 0.5s;
-    margin-top: 15px;
+    transition: all 1s;
+    margin-top: 100px;
 }
 button.primaryContained {
     background: #016ba8;
