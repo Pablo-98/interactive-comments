@@ -21,3 +21,13 @@ new Vue ({
         }
     }
 });
+
+var counter = 0;
+$("#plus").click(function(){
+    counter++;
+    $("#count").text(counter);
+});
+$("minuts").click(function(){
+    counter--;
+    $("#count").text(counter);
+})
