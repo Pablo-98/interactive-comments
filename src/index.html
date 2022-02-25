@@ -20,13 +20,16 @@
   <script src="index.js"> </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <section id="app">
     <div class="container">
       <p> Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints. Works really well!:)</p>
       
-      <p class="button" id="minus"> - </p>
-      <p id="count">0</p>
-      <p class="button" id="plus"> + </p>
+      <div>
+      <button id="button1" onclick="count()"> - </button>
+      <p id="count1">0</p>
+      <button onclick="count()"> + </button>
+      </div>
       
       <div class="row">
         <div class="col-6">
@@ -50,7 +53,16 @@
 
      <section id="app-1">
        <div class="container">
+
+
         <p> Woah. Your project looks awesome! How long have you been coding for? I'm still new but I think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!<p>
+
+          <div>
+            <button id="button2" onclick="count()"> - </button>
+            <p id="count2"> 0</p>
+            <button onclick="count()"> + </button>
+            </div>
+
           <div class="row">
            <div class="col-6">
              <div class="comment">
